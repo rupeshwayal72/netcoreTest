@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NETCORE AUTOMATION TEST SUITE]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="com.netcore.qa.util.WebEventListener"/>
+    <listener class-name="com.netcore.qa.ExtentReportListner.ExtentReportListenerNG"/>
+  </listeners>
+  <test name="searchProductTest">
+    <classes>
+      <class name="com.netcore.qa.testcases.searchPageTest"/>
+    </classes>
+  </test> <!-- searchProductTest -->
+</suite> <!-- Failed suite [NETCORE AUTOMATION TEST SUITE] -->

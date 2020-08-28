@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [VTS AUTOMATION TEST SUITE]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="com.vts.qa.util.WebEventListener"/>
+    <listener class-name="com.vts.qa.ExtentReportListner.ExtentReportListenerNG"/>
+  </listeners>
+  <test name="HomePageTest">
+    <classes>
+      <class name="com.vts.qa.testcases.homePageTest"/>
+    </classes>
+  </test> <!-- HomePageTest -->
+</suite> <!-- Failed suite [VTS AUTOMATION TEST SUITE] -->

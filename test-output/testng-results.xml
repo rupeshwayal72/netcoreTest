@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-28T08:40:07Z" name="NETCORE AUTOMATION TEST SUITE" finished-at="2020-08-28T08:40:43Z" duration-ms="35682">
+    <groups>
+    </groups>
+    <test started-at="2020-08-28T08:40:07Z" name="searchProductTest" finished-at="2020-08-28T08:40:43Z" duration-ms="35682">
+      <class name="com.netcore.qa.testcases.searchPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.netcore.qa.testcases.searchPageTest@76505305]" started-at="2020-08-28T14:10:07Z" name="setUp" finished-at="2020-08-28T14:10:18Z" duration-ms="11085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchProductTest()[pri:0, instance:com.netcore.qa.testcases.searchPageTest@76505305]" started-at="2020-08-28T14:10:18Z" name="searchProductTest" finished-at="2020-08-28T14:10:43Z" duration-ms="24506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method is-config="true" signature="Quit_Browser_Test()[pri:0, instance:com.netcore.qa.testcases.searchPageTest@76505305]" started-at="2020-08-28T14:10:43Z" name="Quit_Browser_Test" finished-at="2020-08-28T14:10:43Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit_Browser_Test -->
+      </class> <!-- com.netcore.qa.testcases.searchPageTest -->
+    </test> <!-- searchProductTest -->
+  </suite> <!-- NETCORE AUTOMATION TEST SUITE -->
+</testng-results>
